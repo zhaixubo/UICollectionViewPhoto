@@ -17,6 +17,13 @@
 		587318C3295D6DFC00E136C0 /* UICollectionView___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587318C2295D6DFC00E136C0 /* UICollectionView___Tests.m */; };
 		587318CD295D6DFC00E136C0 /* UICollectionView___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587318CC295D6DFC00E136C0 /* UICollectionView___UITests.m */; };
 		587318CF295D6DFC00E136C0 /* UICollectionView___UITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587318CE295D6DFC00E136C0 /* UICollectionView___UITestsLaunchTests.m */; };
+		587318E0295D6F0F00E136C0 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 587318DF295D6F0F00E136C0 /* MainView.m */; };
+		587318E3295D74DC00E136C0 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 587318E2295D74DC00E136C0 /* MyCollectionViewCell.m */; };
+		587318E8295D76DD00E136C0 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587318E4295D76DD00E136C0 /* 3.jpg */; };
+		587318E9295D76DD00E136C0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587318E5295D76DD00E136C0 /* 1.jpg */; };
+		587318EA295D76DD00E136C0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587318E6295D76DD00E136C0 /* 4.jpg */; };
+		587318EB295D76DD00E136C0 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587318E7295D76DD00E136C0 /* 2.jpg */; };
+		587318ED295DC11400E136C0 /* chacha2.png in Resources */ = {isa = PBXBuildFile; fileRef = 587318EC295DC11300E136C0 /* chacha2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +61,15 @@
 		587318C8295D6DFC00E136C0 /* UICollectionView照片墙UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UICollectionView照片墙UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		587318CC295D6DFC00E136C0 /* UICollectionView___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView___UITests.m"; sourceTree = "<group>"; };
 		587318CE295D6DFC00E136C0 /* UICollectionView___UITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView___UITestsLaunchTests.m"; sourceTree = "<group>"; };
+		587318DE295D6F0F00E136C0 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		587318DF295D6F0F00E136C0 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		587318E1295D74DC00E136C0 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		587318E2295D74DC00E136C0 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		587318E4295D76DD00E136C0 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		587318E5295D76DD00E136C0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		587318E6295D76DD00E136C0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		587318E7295D76DD00E136C0 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		587318EC295DC11300E136C0 /* chacha2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chacha2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +120,18 @@
 		587318A5295D6DFA00E136C0 /* UICollectionView照片墙 */ = {
 			isa = PBXGroup;
 			children = (
+				587318E5295D76DD00E136C0 /* 1.jpg */,
+				587318E7295D76DD00E136C0 /* 2.jpg */,
+				587318E4295D76DD00E136C0 /* 3.jpg */,
+				587318E6295D76DD00E136C0 /* 4.jpg */,
+				587318EC295DC11300E136C0 /* chacha2.png */,
 				587318A6295D6DFA00E136C0 /* AppDelegate.h */,
 				587318A7295D6DFA00E136C0 /* AppDelegate.m */,
 				587318A9295D6DFA00E136C0 /* SceneDelegate.h */,
 				587318AA295D6DFA00E136C0 /* SceneDelegate.m */,
-				587318AC295D6DFA00E136C0 /* ViewController.h */,
-				587318AD295D6DFA00E136C0 /* ViewController.m */,
+				587318DB295D6E9D00E136C0 /* M */,
+				587318DD295D6EAA00E136C0 /* V */,
+				587318DC295D6EA600E136C0 /* C */,
 				587318AF295D6DFA00E136C0 /* Main.storyboard */,
 				587318B2295D6DFC00E136C0 /* Assets.xcassets */,
 				587318B4295D6DFC00E136C0 /* LaunchScreen.storyboard */,
@@ -134,6 +156,33 @@
 				587318CE295D6DFC00E136C0 /* UICollectionView___UITestsLaunchTests.m */,
 			);
 			path = "UICollectionView照片墙UITests";
+			sourceTree = "<group>";
+		};
+		587318DB295D6E9D00E136C0 /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		587318DC295D6EA600E136C0 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				587318AC295D6DFA00E136C0 /* ViewController.h */,
+				587318AD295D6DFA00E136C0 /* ViewController.m */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		587318DD295D6EAA00E136C0 /* V */ = {
+			isa = PBXGroup;
+			children = (
+				587318DE295D6F0F00E136C0 /* MainView.h */,
+				587318DF295D6F0F00E136C0 /* MainView.m */,
+				587318E1295D74DC00E136C0 /* MyCollectionViewCell.h */,
+				587318E2295D74DC00E136C0 /* MyCollectionViewCell.m */,
+			);
+			path = V;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,9 +288,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587318ED295DC11400E136C0 /* chacha2.png in Resources */,
+				587318EA295D76DD00E136C0 /* 4.jpg in Resources */,
 				587318B6295D6DFC00E136C0 /* LaunchScreen.storyboard in Resources */,
+				587318EB295D76DD00E136C0 /* 2.jpg in Resources */,
 				587318B3295D6DFC00E136C0 /* Assets.xcassets in Resources */,
 				587318B1295D6DFA00E136C0 /* Main.storyboard in Resources */,
+				587318E8295D76DD00E136C0 /* 3.jpg in Resources */,
+				587318E9295D76DD00E136C0 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587318E0295D6F0F00E136C0 /* MainView.m in Sources */,
 				587318AE295D6DFA00E136C0 /* ViewController.m in Sources */,
+				587318E3295D74DC00E136C0 /* MyCollectionViewCell.m in Sources */,
 				587318A8295D6DFA00E136C0 /* AppDelegate.m in Sources */,
 				587318B9295D6DFC00E136C0 /* main.m in Sources */,
 				587318AB295D6DFA00E136C0 /* SceneDelegate.m in Sources */,

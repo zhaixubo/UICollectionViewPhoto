@@ -6,16 +6,18 @@
 //
 
 #import "ViewController.h"
-
+#import "MainView.h"
 @interface ViewController ()
-
+@property (nonatomic, strong) MainView *mainView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.mainView = [[MainView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:self.mainView];
+    [self.mainView viewInit];
 }
 
 
